@@ -7,16 +7,13 @@ package projeto01;
 
 /**
  *
- * @author Toni
+ * @author azaneti
  */
-public class Ball {
-    String name="";
-    Boolean kick(){
-        return true;
-    }
-    boolean kick2()
-    {
-        String chute = "Chute Mais Forte";
-        return true;
-    }
+public class Person {
+    public String name;
+    public Integer age;
+    public String cpf;   
+public void say(){
+    System.out.println("I´m Something...");
+}
 }

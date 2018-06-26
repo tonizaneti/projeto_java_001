@@ -1,4 +1,4 @@
-/*
+ /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -16,16 +16,14 @@ public class Projeto01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Ola Você!");
-        int i, j=50, res;
-        for (i=0; i<j; i++)
-        {
-            res=i*j;
-            System.out.println("Resultado = " +i +"*"+ j +"="+ res);
-        }
-    }
-    public class projeto01{
+        Person person = new Person();
+        person.age=25;
+        person.name= "Maria";
+        person.cpf="08857412308";
+        person.say();
+        System.out.println("Hello "+person.name+"!");
         
     }
+    
     }
     
